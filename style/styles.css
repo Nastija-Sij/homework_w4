@@ -33,6 +33,10 @@ body {
   background-position: center 200px; /* horizontal center, 200px from top */
   background-size: 100% auto; /* scales width to 80% of viewport, maintains aspect ratio */
 }
+.bg-color {
+  background-color: #E3D7E8;
+ 
+}
 .container {
   margin: 460px auto 0 auto;
   padding-bottom: 300px;
