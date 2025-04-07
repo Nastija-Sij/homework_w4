@@ -6,6 +6,11 @@
   --font-family-head: "Inter", sans-serif;
   --font-family-body: "Nokora", sans-serif;
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 h1 {
   font-family: var(--font-family-body);
   font-size: 60px;
@@ -32,21 +37,21 @@ body {
   background-repeat: no-repeat;
   background-position: center 200px; /* horizontal center, 200px from top */
   background-size: 100% auto; /* scales width to 80% of viewport, maintains aspect ratio */
+  overflow-x: hidden;
 }
 .bg-color {
-  background-color: #E3D7E8;
- 
+  background-color: #e3d7e8;
 }
 .container {
-  margin: 460px auto 0 auto;
-  padding-bottom: 300px;
+  margin: 460px auto 20 auto;
+  
 }
 .great-container {
   margin: 0 auto 0 auto;
   max-width: 1200px;
 }
 .greeting-content {
-  margin: 190px 0 150px 0;
+  margin: 190px 0 450px 0;
 }
 .my-name {
   color: var(--pop-color);
@@ -56,11 +61,11 @@ body {
   font-weight: 450;
 }
 footer {
-  margin:0 auto;
+  margin: 0 auto;
   text-align: center;
   font-family: var(--font-family-body);
   font-size: 14px;
   color: var(--pop-color);
-  background-color:var(--primary-color);
-  padding: 40px 0 40px
+  background-color: var(--primary-color);
+  padding: 40px 0 40px;
 }
