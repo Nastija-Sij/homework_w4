@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #ede3f6;
+  --secondary-color: #fbf8fd;
+  --pop-color: #5c237d;
+  --text-color: #202020;
+--font-family-head: "Inter", sans-serif;
+  --font-family-body: "Nokora", sans-serif;
+}
+h1 {
+  font-family: var(--font-family-body);
+  font-size: 2.5rem;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
