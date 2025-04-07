@@ -3,12 +3,60 @@
   --secondary-color: #fbf8fd;
   --pop-color: #5c237d;
   --text-color: #202020;
---font-family-head: "Inter", sans-serif;
+  --font-family-head: "Inter", sans-serif;
   --font-family-body: "Nokora", sans-serif;
 }
 h1 {
   font-family: var(--font-family-body);
-  font-size: 2.5rem;
+  font-size: 60px;
   color: var(--text-color);
   margin-bottom: 1rem;
+}
+h3 {
+  font-family: var(--font-family-head);
+  font-size: 30px;
+  color: var(--pop-color);
+  text-align: center;
+  margin: 15px auto 15px auto;
+}
+p {
+  font-family: var(--font-family-body);
+  font-size: 16px;
+  color: var(--text-color);
+  text-align: center;
+  margin: 10px auto 10px auto;
+}
+body {
+  background-color: var(--primary-color);
+  background-image: url("/img/Rectangle3.svg");
+  background-repeat: no-repeat;
+  background-position: center 200px; /* horizontal center, 200px from top */
+  background-size: 100% auto; /* scales width to 80% of viewport, maintains aspect ratio */
+}
+.container {
+  margin: 460px auto 0 auto;
+  padding-bottom: 300px;
+}
+.great-container {
+  margin: 0 auto 0 auto;
+  max-width: 1200px;
+}
+.greeting-content {
+  margin: 190px 0 150px 0;
+}
+.my-name {
+  color: var(--pop-color);
+}
+.under-heading {
+  font-size: 14px;
+  font-weight: 450;
+}
+footer {
+  margin:0 auto;
+  text-align: center;
+  font-family: var(--font-family-body);
+  font-size: 14px;
+  color: var(--pop-color);
+  background-color:var(--primary-color);
+  padding: 40px 0 40px
 }
