@@ -17,6 +17,13 @@ h1 {
   color: var(--text-color);
   margin-bottom: 1rem;
 }
+h2 {
+  font-family: var(--font-family-head);
+  font-size: 40px;
+  color: var(--text-color);
+  text-align: center;
+  margin: 20px auto 50px auto;
+}
 h3 {
   font-family: var(--font-family-head);
   font-size: 30px;
@@ -35,7 +42,7 @@ body {
   background-color: var(--primary-color);
   background-image: url("/img/Rectangle3.svg");
   background-repeat: no-repeat;
-  background-position: center 200px; /* horizontal center, 200px from top */
+  background-position: center 180px; /* horizontal center, 200px from top */
   background-size: 100% auto; /* scales width to 80% of viewport, maintains aspect ratio */
   overflow-x: hidden;
 }
@@ -43,15 +50,16 @@ body {
   background-color: #e3d7e8;
 }
 .container {
-  margin: 460px auto 20 auto;
-  
+  margin: 20px auto;
+  padding-bottom: 100px;
 }
 .great-container {
   margin: 0 auto 0 auto;
   max-width: 1200px;
 }
 .greeting-content {
-  margin: 190px 0 450px 0;
+  margin: 260px 0 450px 0;
+  padding: 0 40px;
 }
 .my-name {
   color: var(--pop-color);
@@ -62,10 +70,12 @@ body {
 }
 footer {
   margin: 0 auto;
+
   text-align: center;
   font-family: var(--font-family-body);
   font-size: 14px;
   color: var(--pop-color);
   background-color: var(--primary-color);
   padding: 40px 0 40px;
+
 }
