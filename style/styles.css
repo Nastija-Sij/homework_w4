@@ -81,11 +81,33 @@ footer {
 }
 @media (max-width: 768px) {
   h1 {
-    font-size: 24px !important;
-    color: violet !important;
+    font-size: 34px;
   }
   h2 {
-    font-size: 20px;
-    color: violet;
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  img {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+  }
+  body {
+    background-color: var(--primary-color);
+    background-image: url("/img/Rectangle15_long.svg");
+    background-repeat: no-repeat;
+    background-position: center 180px; /* horizontal center, 200px from top */
+    background-size: 100% auto; /* scales width to 80% of viewport, maintains aspect ratio */
+    overflow-x: hidden;
+  }
+  .greeting-content {
+    margin: 260px 0 250px 0;
+    padding: 0 40px;
+  }
+  .col {
+        margin-bottom: 30px;
   }
 }
