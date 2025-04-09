@@ -69,7 +69,7 @@ footer {
   max-width: 1200px;
 }
 .greeting-content {
-  margin: 260px 0 300px 0;
+  margin: 260px 0 280px 0;
   padding: 0 40px;
 }
 .my-name {
@@ -78,7 +78,7 @@ footer {
 .profile {
   background-color: var(--secondary-color);
   padding: 20px;
-
+border-radius: 7px;
   border: 1px solid var(--pop-color);
 }
 .under-heading {
