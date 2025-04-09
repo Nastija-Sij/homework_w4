@@ -77,9 +77,8 @@ footer {
   color: var(--pop-color);
 }
 .profile {
-  background-color: var(--secondary-color);
-  padding: 20px;
-  border: 1px solid var(--pop-color);
+  background-color: var(--primary-color);
+  border-radius: 7px;
 }
 .under-heading {
   font-size: 14px;
