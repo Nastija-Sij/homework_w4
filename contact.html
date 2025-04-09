@@ -15,8 +15,8 @@
       integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/style/styles.css" />
-    <title>Nastija Sij | Front-end Developer</title>
+    <link rel="stylesheet" href="/style/styles-contact.css" />
+    <title>About me | Nastija Sij | Front-end Developer</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-color fixed-top">
@@ -34,10 +34,8 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="https://n-s-homework-w4.netlify.app/"
-              >Home
-            </a>
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Home </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/projects.html">Projects</a>
@@ -46,61 +44,61 @@
             <a class="nav-link" href="/about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contact.html">Contact</a>
+            <a class="nav-link active" href="/contact.html">Contact</a>
           </li>
-        </ul>
+                  </ul>
+        
       </div>
     </nav>
 
     <div class="great-container">
-      <div class="greeting-content">
-        <h1>
-          Hello, <br />
-          I'm <span class="my-name">Nastija</span>, <br />
-          Front-End developer
-        </h1>
-        <h4 class="under-heading">
-          A Slovenian architect turned software developer, based in Vienna!
-        </h4>
-      </div>
-      <h2>What do i do you ask?</h2>
       <div class="container">
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
-          <div class="col px-5">
-            <a href="https://worldclocktime.netlify.app/" target="_blank"
-              ><img
-                class="img-fluid"
-                src="img/world-clock.png"
-                alt="world-clock"
-            /></a>
-            <h3 class="my-4">Timezones with JS</h3>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        <div class="row greeting-content">
+          <div class="col-lg-9">
+            <h1>
+              Hello, <br />
+              I'm <span class="my-name">Nastija</span>, <br />
+              Front-End developer, <br />
+              <span class="my-name">Let's get into contact!</span>
+            </h1>
+            <h4 class="under-heading">
+              A Slovenian architect turned software developer, based in Vienna!
+            </h4>
           </div>
-
-          <div class="col px-5">
-            <a href="https://weatherapp-sij.netlify.app/" target="_blank"
-              ><img
-                class="img-fluid"
-                src="img/weather-forecast.png"
-                alt="weather forecast preview"
-            /></a>
-            <h3 class="my-4">Weather Apps with API</h3>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-          </div>
-
-          <div class="col px-5">
-            <a href="https://daily-poem.netlify.app/" target="_blank">
-              <img
-                class="img-fluid"
-                src="img/ai-poem-generator.png"
-                alt="AI Poem generator Website Preview"
-            /></a>
-            <h3 class="my-4">AI supported Websites</h3>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+          <div class="col-lg-3">
+            <img src="/img/profilePicture.jpg" alt="" width="215px" />
           </div>
         </div>
       </div>
+      <div class="contact-paragraph">
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+        
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Email Subject</label> <br>
+         <textarea  for="exampleFormControlTextarea1" name="" id=""></textarea>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Email Content</label>
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+        <button class="btn mt-3" type="submit">Submit form</button>
+      </form>
+      </div>
     </div>
+
     <footer>
       This website is made with <span class="heart">❤️</span> by Nastija Sij
     </footer>
