@@ -120,13 +120,13 @@ footer {
 
 .overlay-text {
   position: absolute;
-  bottom: 1rem;
-  left: 1rem;
+  bottom: 10px;
+  left: 12px;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 20px;
   font-weight: 400;
   text-align: left;
-  padding: 1rem;
+  padding: 10px;
   max-width: 700px;
 }
 
@@ -143,5 +143,8 @@ footer {
   }
   .contact {
     min-height: 170px;
+  }
+  .overlay-text {
+    font-size: 16px;
   }
 }

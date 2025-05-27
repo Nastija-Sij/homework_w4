@@ -57,12 +57,12 @@ footer {
   background-color: #e3d7e8;
 }
 .about-me-blocks {
-  max-width: 1100px ;
+  max-width: 1100px;
   display: block;
-    margin: 0 auto;
+  margin: 0 auto;
 }
 .contact {
-  min-height: 256px;
+  min-height: 290px;
 }
 .great-container {
   margin: 0 auto 0 auto;
@@ -78,12 +78,15 @@ footer {
 .profile {
   background-color: var(--secondary-color);
   padding: 20px;
-border-radius: 7px;
+  border-radius: 7px;
   border: 1px solid var(--pop-color);
 }
 .under-heading {
   font-size: 14px;
   font-weight: 450;
+}
+.lets-meet {
+  max-width: 1200px;
 }
 @media (max-width: 768px) {
   h1 {
@@ -98,6 +101,6 @@ border-radius: 7px;
   }
   .contact {
     min-height: 170px;
-    min-width: 250px;
+    min-width: 260px;
   }
 }
