@@ -62,7 +62,7 @@ footer {
     margin: 0 auto;
 }
 .contact {
-  min-height: 300px;
+  min-height: 256px;
 }
 .great-container {
   margin: 0 auto 0 auto;
@@ -98,5 +98,6 @@ border-radius: 7px;
   }
   .contact {
     min-height: 170px;
+    min-width: 250px;
   }
 }
