@@ -73,6 +73,7 @@ footer {
   margin: 260px 0 300px 0;
   padding: 0 40px;
 }
+
 .my-name {
   color: var(--pop-color);
 }
@@ -88,6 +89,8 @@ footer {
 .project-card {
   position: relative;
   overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
 }
 
 .project-card img {

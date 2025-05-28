@@ -47,6 +47,9 @@ body {
   background-size: 100% auto; /* scales width to 80% of viewport, maintains aspect ratio */
   overflow-x: hidden;
 }
+.img-fluid {
+  border-radius: 5px;
+}
 .bg-color {
   background-color: #e3d7e8;
 }
@@ -69,6 +72,11 @@ body {
   font-size: 14px;
   font-weight: 450;
 }
+.page-block {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 footer {
   margin: 0 auto;
   text-align: center;
@@ -89,7 +97,7 @@ footer {
     font-size: 18px;
     font-weight: 600;
   }
-  
+
   body {
     background-color: var(--primary-color);
     background-image: url("/img/Rectangle15_long.svg");
@@ -103,6 +111,12 @@ footer {
     padding: 0 40px;
   }
   .col {
-        margin-bottom: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 992px) {
+  .page-block {
+    max-width: 500px;
+    margin: 0 auto;
   }
 }
