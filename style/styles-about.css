@@ -43,9 +43,13 @@ p {
   text-align: left;
   margin: 10px auto 10px auto;
 }
+ul {
+  list-style: none;
+  padding: 0px;
+  line-height: 35px;
+}
 footer {
   margin: 60px auto 0 auto;
-
   text-align: center;
   font-family: var(--font-family-body);
   font-size: 14px;
@@ -53,23 +57,28 @@ footer {
   background-color: var(--primary-color);
   padding: 40px 0 40px;
 }
+.button-cv {
+  background-color: var(--pop-color);
+  border: var(--pop-color);
+  color: white;
+  box-shadow: 3px 3px 14px 5px rgba(84, 48, 80, 0.438);
+  padding: 14px 17px;
+}
 .bg-color {
-  background-color: #e3d7e8;
+  background-color: var(--primary-color);
 }
 .about-me-blocks {
   max-width: 1100px;
   display: block;
   margin: 0 auto;
 }
-.contact {
-  min-height: 290px;
-}
+
 .great-container {
   margin: 0 auto 0 auto;
   max-width: 1200px;
 }
 .greeting-content {
-  margin: 260px 0 280px 0;
+  margin: 260px 0 240px 0;
   padding: 0 40px;
 }
 .my-name {
