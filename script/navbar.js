@@ -1,6 +1,3 @@
-alert("HELLO");
-console.log("Test!navbar is loaded!");
-
 function normalizePath(path) {
   if (path === "/") return "/index.html";
   return path;
